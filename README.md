@@ -1,8 +1,16 @@
 # 🧠 A Comprehensive Analysis of Deep Learning Architectures for Imagined Speech Decoding from EEG Signals
+**[Chisco Report](https://docs.google.com/document/d/1usEui4QHUvEy5KtKgrXx0F0fgCyZjVkAIQChvHc-6mA/edit?usp=sharing)**
 
-**Author:** GitHub Copilot  
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)
+[![torch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+[![transformers](https://img.shields.io/badge/🤗%20Transformers-ffc107?logo=huggingface&logoColor=black)](https://huggingface.co/docs/transformers/index)
+**Author:** Bisal Prasad 
 **Date:** July 14, 2025  
 **Project:** Decoding Imagined Speech for Advanced Brain-Computer Interfaces
+
+-----
+This repository contains a comprehensive exploration of deep learning architectures for decoding imagined speech from electroencephalography (EEG) signals. Using the **[Chisco dataset](https://www.nature.com/articles/s41597-024-04114-1)**, this project develops and evaluates various models for Brain-Computer Interfaces (BCI), with the goal of advancing communication tools for individuals with paralysis.
 
 -----
 
