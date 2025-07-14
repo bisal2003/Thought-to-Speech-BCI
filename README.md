@@ -97,7 +97,8 @@ def compute_scalogram(eeg_data, scales, wavelet='morl'):
 
 > **Scalogram Visualization (Wavelet-ViT Approach):**
 > 
-> ![Scalogram Example](path/to/your/scalogram_image.png)
+<img width="1399" height="790" alt="image" src="https://github.com/user-attachments/assets/cc8de5a1-3db8-4d0a-8f8a-5d0fc1dfc054" />
+
 >
 > *Above: Example scalogram extracted from a single EEG channel using Morlet wavelet.*
 >
