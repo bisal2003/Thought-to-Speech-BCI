@@ -1,0 +1,14 @@
+# Ignore virtual environment
+.venv/
+
+
+
+Chisco/
+# Ignore model checkpoints
+checkpoint*/
+checkpoints_*/
+
+# Python cache
+__pycache__/
+
+photo/Dewave/
