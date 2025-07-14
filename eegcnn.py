@@ -27,7 +27,7 @@ from transformers import WhisperForConditionalGeneration
 import math
 
 class EEGcnn(nn.Module):
-    def __init__(self, Chans=64, dropoutRate=0.5, kernLength1=100, kernLength2=50, F1=8, D=2, F2=16, P1=2, P2=5, dropoutType='Dropout'):
+    def __init__(self, Chans=64, dropoutRate=0.5, kernLength1=10, kernLength2=25, F1=8, D=2, F2=16, P1=2, P2=5, dropoutType='Dropout'):
         super().__init__()
         self.F1 = F1
         self.F2 = F2

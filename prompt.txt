@@ -1,0 +1,16 @@
+i need to replicate this chisco paper for further study, say i have this already downloaded this derivative folder with only preprocessed_pkl folder in in, so i need to start with the preprocessed file only so simplify the above code structure but do not lost the actual target , and giv eme proper steps and guide so that i can replicate the above paper with proper classification and accuracy output
+
+well then update the eeg5bands.py , EEGclassify5bands.py,wavelets_5bands.py ,like this architexture nothing else:
+1.the signal from the pkl file is processed via wavelets straight forward into 20 band from 0 to 100 ,
+2.the intension is that within the freq band from 0-4 is delta,4-8 is thete,8-12 is alpha,12-32 is beta, 32-100 gamma, and the like 4 4 group and for beta and gamma just get the average of that 4 - 4 bands in between then no other operation like abs or mean any thing
+3, then feed them to cnn like 5 bands(like R G B) * 125 channels * 1651 time stamp or so,
+4. then to the transformer and so on,
+5. decide the batch according to your knowledge for first computation using GPU
+6.save the model at every epochs so that i can retrain it if needed, or i can save the parameters if connection lost,
+7.Write all the code precisely with proper comment so that anyone can understand it and simple code
+
+
+well then ok , give me a better overlook to the architexture of Chisco paper, like input and output dimension at every step
+
+
+well tell me the architexture of this transformer like each step and how it process the data at each step, with its intension behind it 
