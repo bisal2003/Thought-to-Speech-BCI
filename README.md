@@ -1,4 +1,5 @@
 # Decoding Imagined Speech with Deep Learning
+**[Chisco dataset](https://docs.google.com/document/d/1usEui4QHUvEy5KtKgrXx0F0fgCyZjVkAIQChvHc-6mA/edit?usp=sharing)**
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)
